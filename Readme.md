@@ -1,7 +1,8 @@
 # Личный проект «Техномарт»
 
 * Студент: [Egor Dvizov](https://up.htmlacademy.ru/htmlcss/26/user/195823).
-* Наставник: `Неизвестно`.
+* Наставник: [Егор Дьяченко](https://up.htmlacademy.ru/htmlcss/26/user/id228297
+).
 
 ---
 
