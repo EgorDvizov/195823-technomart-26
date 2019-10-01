@@ -5,9 +5,9 @@
     <title>Техномарт</title>
   </head>
   <body>
-  	<head>
+  	<header class="main-header">
   		<div>
-  			<a>
+  			<a class="main-header-logo">
   				<img src="" alt="Логотип магазина инструментов «Техномарт»">
   			</a>
   			<form>  				
@@ -33,16 +33,18 @@
   			<li>Мои заказы</li>
   			<li>Личный кабинет</li>
   		</ul>
-  		<nav>
-  			<li>Главная</li>
-  			<li><a href="company.html">Компания</a></li>
-  			<li><a href="catalog.html">Каталог</a></li>
-  			<li><a href="news.html">Новости</a></li>
-  			<li><a href="special offers.html">Спецпредложение</a></li>
-  			<li><a href="deliveryте.html">Доставка</a></li>
-  			<li><a href="contacts.html">Контакты</a></li>
+  		<nav class="main-navigation">
+        <ul class="site-navigation">
+    			<li>Главная</li>
+    			<li><a href="company.html">Компания</a></li>
+    			<li><a href="catalog.html">Каталог</a></li>
+    			<li><a href="news.html">Новости</a></li>
+    			<li><a href="special offers.html">Спецпредложение</a></li>
+    			<li><a href="deliveryте.html">Доставка</a></li>
+    			<li><a href="contacts.html">Контакты</a></li>
+        </ul>
   		</nav>	
-  	</head>
+  	</header>
     <main>
       <ul>
         <li>
@@ -234,39 +236,43 @@
             </a>
           </li>
         </ul>
+                                      <!--Pop-Up оформление покупки-->
+        <span class="purchase">   
+          <p>Товар добавлен в карзину!
+          <img src=""><!--картинка "галочка"-->
+          </p>
+          <a href="basket.html">Оформить заказ</a>
+          <button type="button" class="close-purchase">
+            Продолжить покупки
+          </button>
+        </span>
+        
       </section>
       <section> <!--Фильтры товаров-->
         <h3>производитель</h3>
         <ul>
           <li>
-            <img src="img/checkbox-on.svg">
             Bosh
           </li>
           <li>
-            <img src="img/checkbox-off.svg">
             Интерскол
           </li>
           <li>
-            <img src="img/checkbox-on.svg">
             Makita
           </li>
           <li>
-            <img src="img/checkbox-off.svg">
             Dewalt
           </li>
           <li>
-            <img src="img/checkbox-off.svg">
             Hitachi
           </li>
         </ul>
         <h3>Питание:</h3>
         <ul>
           <li>
-            <img src="img/radio-on.svg">
             Аккумуляторное
           </li>
           <li>
-            <img src="img/radio-off.svg">
             Сетевые
           </li>
         </ul>

@@ -5,9 +5,9 @@
     <title>Техномарт</title>
   </head>
   <body>
-  	<head>
+  	<header class="main-header">
   		<div>
-  			<a>
+  			<a class="main-header-logo">
   				<img src="" alt="Логотип магазина инструментов «Техномарт»">
   			</a>
   			<form>  				
@@ -26,23 +26,33 @@
   			<a href="tel:+7 (812) 55-05-55">+7 (978) 555-05-55</a>
   			<p>г. Санкт-петербург. ул. Б. Конюшеннаяб д. 19/8</p>
   		</div>
-  		<ul>
-  			<li>Вход</li>
-  			<li>Регистрация</li>
+  		<ul class="user-navigation">
+  			<li>
+  				<a class="login-link" href="login.html">
+  					Вход
+  				</a>
+  			</li>
+  			<li>
+  				<a class="registration-link" href="reg.html">
+  					Регистрация
+  				</a>	
+  			</li>
   		</ul>
-  		<nav>
-  			<li>Главная</li>
-  			<li><a href="company.html">Компания</a></li>
-  			<li><a href="catalog.html">Каталог</a></li>
-  			<li><a href="news.html">Новости</a></li>
-  			<li><a href="special_offers.html">Спецпредложение</a></li>
-  			<li><a href="deliveryте.html">Доставка</a></li>
-  			<li><a href="contacts.html">Контакты</a></li>
+  		<nav class="main-navigation">
+  			<ul class="site-navigation">
+	  			<li>Главная</li>
+	  			<li><a href="company.html">Компания</a></li>
+	  			<li><a href="catalog.html">Каталог</a></li>
+	  			<li><a href="news.html">Новости</a></li>
+	  			<li><a href="special_offers.html">Спецпредложение</a></li>
+	  			<li><a href="deliveryте.html">Доставка</a></li>
+	  			<li><a href="contacts.html">Контакты</a></li>
+	  		</ul>
   		</nav>	
-  	</head>
-    <main>
+  	</header>
+    <main class="container">
     	<h1>«Техномарт»- наши предложения</h1>
-    		<section>
+    		<section class="catalog">
     			<h2>Каталог</h2>
     				<figure>
     					<img src=""><!--изображение для figure-->
@@ -251,14 +261,33 @@
     	 </ul>
     	 <span><a href="compony.html">Подробней о компании</a></span>   	
     </section>
-    <section class="contacts">
+    <section class="modal-map">
     	<h2>Контакты</h2>
     	<p>Вы можете забрать товар сами,<br>
     		заехав в наш офис:
     	</p>
-    	<img src="img/map.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19.8">
-    	<span><a href="">Заблудились? Напишите нам!</a></span> <!--форма обратной связи-->   	
+    	<img src="img/map.png" alt="наш офис: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    	<button class="modal-close" type="button">
+    		Закрыть
+    	</button>
+    	<span><a href="">Заблудились? Напишите нам!</a></span> <!--форма обратной связи-->
+    	<form class="feedback-form" accept="" method="post">
+    		<p>
+    			<label class="" for="user-name">Ваше имя:</label>
+    			<input class="user-name" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+    		</p>
+    		<p>
+    			<label class="" for="user-e-mail">Ваш e-mail:</label>
+    			<input type="text" id="user-e-mail" name="e-mail" placeholder="email@example.com">
+    		</p>
+    		<p>
+    			<label class="" for="user-letter">Текст письма:</label>
+    			<textarea name="letter" id="user-letter" rows="7">В свободной форме</textarea>
+    		</p>
+    		<input type="submit" value="Отправить">
+    	</form>   	
     </section>
+
     <footer>
     	<img src="" alt="Логотип магазина инструментов «Техномарт»">
     	<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19.8<br>
