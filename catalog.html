@@ -46,7 +46,7 @@
   		</nav>	
   	</header>
     <main>
-      <ul>
+      <ul class="breadcrumbs">
         <li>
           <a href="index.html">Домой  <!--иконка "домой"-->
           </a>
@@ -248,35 +248,51 @@
         </span>
         
       </section>
-      <section> <!--Фильтры товаров-->
-        <h3>производитель</h3>
-        <ul>
-          <li>
-            Bosh
-          </li>
-          <li>
-            Интерскол
-          </li>
-          <li>
-            Makita
-          </li>
-          <li>
-            Dewalt
-          </li>
-          <li>
-            Hitachi
-          </li>
-        </ul>
-        <h3>Питание:</h3>
-        <ul>
-          <li>
-            Аккумуляторное
-          </li>
-          <li>
-            Сетевые
-          </li>
-        </ul>
-        <a href="">Показать</a> <!--кнопка показать филтры-->
+      <section>
+        <h2 class="visually-hidden">Фильтр товаров</h2> <!--Фильтры товаров-->
+          <form class="filter" action="" method="get">
+            <fieldset>
+              <legend>Производитель:</legend> 
+              <ul>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosh" id="filter-bosh" checked>
+                  <label for="filter-bosh">Bosh</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Interskol" id="filter-interskol">
+                  <label for="filter-interskol">Интерскол</label> 
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Makita" id="filter-makita" checked>
+                  <label for="filter-makita">Makita</label> 
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Dewalt" id="filter-dewalt">
+                  <label for="filter-dewalt">Dewalt</label> 
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hitachi" id="filter-hitachi">
+                  <label for="filter-hitachi">Hitachi</label> 
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Питание:</legend> 
+              <ul>    
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="electrical-type" value="battery" id="filter-battery-type" checked>
+                  <label for="filter-battery-type">Аккумуляторное</label> 
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="electrical-type" value="network" id="filter-network-type">
+                  <label for="filter-network-type">Сетевые</label> 
+                </li>
+              </ul>
+             </fieldset> 
+             <button type="submit" class="filter-button button">
+               Показать
+             </button>
+          </form>  
       </section>
     </main>
     <article>
