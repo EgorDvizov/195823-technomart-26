@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+	padding: 0px;
+
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	color: #ffffff;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #293449;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.main-navigation {
+	background-color: #32425c;
+	border-bottom: 4px solid #293449;
+}
+
+.about-us {
+	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 23px;
+	font-style: italic;
+	font-size: 16px;
+	color: #ee3643;
+}
+
+.tel {
+	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 21px;
+	font-size: 21px;
+	color: #ee3643;
+}
+
+.address {
+	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 21px;
+	font-size: 14px;
+	color: #32425c;
+}
+
+.user-navigation a {
+	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 21px;
+	font-size: 21px;
+	color: #000000;
+}
+
+.main-navigation
+.site-navigation  {
+	list-style: none;
+	font-family: "Cuprum", Arial, sans-serif;
+	line-height: 17px;
+	font-size: 17px;
+	color: #ffffff;
+}
+
+.main-navigation
+.site-navigation a {
+	color: #ffffff;
+}
