@@ -7,10 +7,25 @@ body {
 	line-height: 24px;
 	color: #ffffff;
 
+	background-color: #f1f5f7;
+
 }
 
 a {
 	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.header .main-header-logo {
+	background-color: #ee3643;
+	box-shadow: inset 0 -4px 0 #b52933;
 }
 
 .header {
@@ -21,9 +36,37 @@ a {
 	color: #ffffff;
 }
 
+.head-bar {
+	list-style: none;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	
+}
+
+.head-bar a {
+	color: #ffffff;
+}
+
+.bookmarks:hover,
+.bookmarks:focus,
+.basket:hover,
+.basket:focus {
+	background-color: #212a3a;
+}
+
+.order {
+	background-color: #63a63e;
+}
+
+.order:hover,
+.order:focus {
+	background-color: #5fbb2d;
+}
+
 .main-navigation {
 	background-color: #32425c;
-	border-bottom: 4px solid #293449;
+	box-shadow: inset 0 -4px 0 #293449;
 }
 
 .about-us {
@@ -48,11 +91,19 @@ a {
 	color: #32425c;
 }
 
-.user-navigation a {
+
+
+.login-link,
+.registration-link {
 	font-family: "Cuprum", Arial, sans-serif;
 	line-height: 21px;
 	font-size: 21px;
 	color: #000000;
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+	color: #ee3643;
 }
 
 .main-navigation
@@ -68,3 +119,137 @@ a {
 .site-navigation a {
 	color: #ffffff;
 }
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	background-color: #293449;
+}
+
+.delivery {
+	background-color: #ffffff;
+}
+
+.delivery h2 {
+	font-size: 30px;
+	line-height: 30px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.delivery p {
+	font-family: "PT Sana", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	font-weight: normal;
+}
+.delivery .delivery-type li {
+	list-style: none;
+}
+
+.more-details {
+	color: white;
+	background-color: #ee3643;
+}
+
+.delivery .delivery-type {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-sixe: 18px;
+	line-height: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.modal-map {
+	background-color: #ffffff;
+}
+
+.modal-map h2 {
+	font-size: 30px;
+	line-height: 30px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.modal-map p {
+	font-family: "PT Sana", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+/*__________FOOTER__________*/
+
+.footer-logo {
+	background-color: #ee3643;
+	box-shadow: inset 0 -4px 0 #b52933;
+}
+
+.footer-nav li {
+	list-style: none;
+}
+
+.footer-nav {
+	background-color: #32425c;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.footer-contacts {
+	background-color: #293449;
+}
+
+.company .compant-address {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #f1f5f7;
+}
+
+.about-company a {
+	color: #f1f5f7;
+}
+
+.company-offers a {
+	color: #ffd180;
+}
+
+.copyright {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.about-company a:hover,
+.company-offers a:hover,
+.about-company a:focus,
+.company-offers a:focus {
+	text-decoration: underline;
+}
+
+.company-feedback,
+.developer {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.company-feedback .feedback {
+	color: #ffd180;
+}
+
+.developer .developed-by {
+	color: #ffd180;
+}
+
+.feedback:hover,
+.developed-by:hover,
+.feedback:focus,
+.developed-by:focus {
+	text-decoration: underline;
+}
+
